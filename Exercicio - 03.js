@@ -2,8 +2,8 @@
  
 function  dados(nome, sobrenome,  idade,  cidade){ // Aqui criei uma função com o nome dados para receber os valores que queremos retornar com a função
 
-  var resultado = nome  + " " + sobrenome + ", "  + idade + ", "  + cidade  ; // aqui criei a variável resultado e atribui os dados concatenados
+  var resultado = "Meu nome é "	+ nome  + " " + sobrenome + ", tenho "  + idade + " anos, e moro em "  + cidade  ; // aqui criei a variável resultado e atribui os dados concatenados
     return resultado; // aqui usei o comando return para retornar a variável resultado quando usarmos a função
 }
 
-
+dados("Lucas","Gomes",30,"Brasilia")
