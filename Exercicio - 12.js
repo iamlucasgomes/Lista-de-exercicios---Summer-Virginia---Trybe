@@ -10,7 +10,7 @@ function  inverter(conteudo){	// aqui criei uma função onde vamos usar 1 parâ
     return  resultado; // aqui usei a declaração return, para retornar a variável resultado quando usarmos a função
   }
   
-  /////////////////////// RESOLUÇÃO COM ESTRUTURA DE REPETIÇÃO/////////////////////////
+  /////////////////////// RESOLUÇÃO COM ESTRUTURA DE REPETIÇÃO E ARRAY /////////////////////////
   
   function invertido(conteudo){ // aqui criei uma função onde vamos usar 1 parâmetro com o nome de conteudo
     var	resultado	=	[]; //	aqui criei a variável resultado, onde atribuimos uma array vazia
@@ -20,4 +20,13 @@ function  inverter(conteudo){	// aqui criei uma função onde vamos usar 1 parâ
     } return resultado;	// aqui usei a declaração return, para retornar a variável resultado quando usarmos a função
   }
   
+  /////////////////////// RESOLUÇÃO COM ESTRUTURA DE REPETIÇÃO SEM ARRAY /////////////////////////
   
+  function invertido(conteudo){ // aqui criei uma função onde vamos usar 1 parâmetro com o nome de conteudo
+    var	resultado	=	""; //	aqui criei a variável resultado, onde atribuimos uma string vazia
+    for(i	=	conteudo.length -1;	i	>=	0;	i --){ //	usei a estrutura de repetição para pegar todos os itens da array conteúdo e passar para a array resultado, mas começando pelo final da variável conteúdo e indo ate o inicio
+      
+      resultado = resultado + conteudo[i] // atribuí na variavél resultado cada letra da variável conteudo usando nossa variável auxiliar i, criada na nossa estrutura de repetição
+    
+    } return resultado;	// aqui usei a declaração return, para retornar a variável resultado quando usarmos a função
+  }
