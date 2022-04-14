@@ -10,5 +10,5 @@ function eDivisivel(numeros,divisivel){ // criei uma função para receber o par
         resultado.push(numeros[indice]); // adicionaremos ele ao array resultado com o comando .push
       } 
     }
-      return "Os números divisiveis por "	+	divisivel	+	" : " + resultado +"." // usei o comando return para retornar uma concatenação de uma string com as variáveis divisível e resultado
+      return "Os números divisiveis por "	+	divisivel	+	" : " + resultado.sort() +"." // usei o comando return para retornar uma concatenação de uma string com as variáveis divisível e resultado e o método .sort pra organizar os numeros em ordem crescente na variável resultado
     } 
