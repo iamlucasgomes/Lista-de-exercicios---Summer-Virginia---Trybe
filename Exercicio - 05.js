@@ -1,5 +1,7 @@
 //5. Escreva uma função que calcule a soma de 1 a 1000 usando a estrutura de repetição for e retorne no formato: "A soma de 1 a 1000 é: x."
 
+/////////////////////// RESOLUÇÃO COM ESTRUTURA DE REPETIÇÃO /////////////////////////
+
 function soma(numero1,  numero2){ // criei uma função com o nome soma para receber as duas entradas de valores
 
     var resultado; // criei a variável resultado, na qual vai receber a resposta que queremos
@@ -11,3 +13,10 @@ function soma(numero1,  numero2){ // criei uma função com o nome soma para rec
     } return resultado;	//	usamos o comando return na variável resultado, para retornarmos o valor de resultado quando usarmos a função
   }
    
+///////////////////////           RESOLUÇÃO MAIS SIMPLES      /////////////////////////
+
+function soma(numero1,  numero2){
+
+const total = (numero1 + numero2) * (numero2 / 2);
+console.log(total);
+} 
